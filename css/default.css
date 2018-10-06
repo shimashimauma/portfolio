@@ -19,6 +19,12 @@ a:hover img {
 	opacity: .5;
 }
 
+.caption {
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+
 section {
 	width: 1024px;
 	margin: 40px auto;
@@ -55,7 +61,7 @@ h1 {
 .work-item {
 	width: 200px;
 	height: 200px;
-	margin: 20px 10px 0 10px;
+	margin: 20px 10px 10px 10px;
 	background-size: contain;
 }
 
