@@ -1,13 +1,71 @@
+html {
+	font-size: 16px;
+}
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 16px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+a img {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+a:hover img {
+	opacity: .5;
+}
+
+section {
+	width: 1024px;
+	margin: 40px auto;
+}
+
+@media screen and (max-width: 768px) {
+	section {
+	width: 768px;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	section {
+	width: 468px;
+	}
 }
 
 h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3.2rem;
-    text-align: center;
-    margin-top: 50px;
-    line-height: 3.8rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 3.2rem;
+	text-align: center;
+	margin-top: 50px;
+	line-height: 3.8rem;
+}
+
+.work-container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.work-item {
+	width: 200px;
+	height: 200px;
+	margin: 20px 10px 0 10px;
+	background-color: aqua;
+	background-size: contain;
+}
+
+footer {
+	text-align: center;
+	padding-top: 17px;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	color: #ffffff;
+	background-color: #000000;
 }
