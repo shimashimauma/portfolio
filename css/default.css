@@ -1,0 +1,13 @@
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 3.8rem;
+}
