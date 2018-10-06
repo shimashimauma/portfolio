@@ -5,12 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -263,10 +257,6 @@ legend {
 
 progress {
   vertical-align: baseline;
-}
-
-[type="number"]::-webkit-inner-spin-button {
-  height: auto;
 }
 
 output {
