@@ -12,6 +12,11 @@ img {
 	width: 100%;
 }
 
+a {
+	text-decoration: none !important;
+	color: #000000; 
+}
+
 a img {
 	opacity: 1;
 	transition: 0.3s;
@@ -36,11 +41,19 @@ section {
 	section {
 	width: 768px;
 	}
+
+	.caption {
+		font-size: 0.8rem;
+	}
 }
 
 @media screen and (max-width: 468px) {
 	section {
 	width: 468px;
+	}
+
+	.caption {
+		font-size: 0.8rem;
 	}
 }
 
